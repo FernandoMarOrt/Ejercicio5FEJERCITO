@@ -5,22 +5,22 @@
 package ej5f;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  *
  * @author fer
  */
-public class Ejercito {
+public class EjercitoOrdenado {
 
     private Set<Soldado> ejercito;
     private int numeroSoldado;
 
-    public Ejercito() {
-        this.ejercito = new HashSet<>();
+    public EjercitoOrdenado() {
+        this.ejercito = new TreeSet<>();
         this.numeroSoldado = numeroSoldado(ejercito);
     }
 

@@ -4,25 +4,28 @@
  */
 package ej5f;
 
-import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  *
  * @author fer
  */
-public class EjercitoPruebas {
+public class EjercitoPruebasOrdenado {
 
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
 
-        Set<Soldado> soldados = new HashSet<>();
+        Set<Soldado> soldados = new TreeSet<>();
 
         Ejercito ejercito = new Ejercito();
 
         //Metodo para alistar soldados
+        ejercito.alistarSoldado(soldados);
+        ejercito.alistarSoldado(soldados);
+        ejercito.alistarSoldado(soldados);
         ejercito.alistarSoldado(soldados);
 
         //Metodo para imprimir soldados en forma de arraylist
